@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Kot/CLionProjects/HW25/surgery/main.cpp
+iostream
+-
+string
+-
+surgeone.h
+C:/Users/Kot/CLionProjects/HW25/surgery/surgeone.h
+
+C:/Users/Kot/CLionProjects/HW25/surgery/surgeone.h
+iostream
+-
+

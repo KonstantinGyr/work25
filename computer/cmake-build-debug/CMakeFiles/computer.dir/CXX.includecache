@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Kot/CLionProjects/HW25/computer/include/display.h
+
+C:/Users/Kot/CLionProjects/HW25/computer/include/load.h
+
+C:/Users/Kot/CLionProjects/HW25/computer/include/ram.h
+
+C:/Users/Kot/CLionProjects/HW25/computer/include/save.h
+
+C:/Users/Kot/CLionProjects/HW25/computer/include/sum.h
+
+C:/Users/Kot/CLionProjects/HW25/computer/main.cpp
+iostream
+-
+string
+-
+include/sum.h
+C:/Users/Kot/CLionProjects/HW25/computer/include/sum.h
+include/save.h
+C:/Users/Kot/CLionProjects/HW25/computer/include/save.h
+include/load.h
+C:/Users/Kot/CLionProjects/HW25/computer/include/load.h
+include/ram.h
+C:/Users/Kot/CLionProjects/HW25/computer/include/ram.h
+include/display.h
+C:/Users/Kot/CLionProjects/HW25/computer/include/display.h
+
+C:/Users/Kot/CLionProjects/HW25/computer/src/ram.cpp
+iostream
+-
+

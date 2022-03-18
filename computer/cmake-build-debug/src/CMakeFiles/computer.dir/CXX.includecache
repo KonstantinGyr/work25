@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/cpu.h
+
+../include/disc.h
+
+../include/ram.h
+
+C:/Users/Kot/CLionProjects/HW25/computer/src/main.cpp
+iostream
+-
+string
+-
+cpu.h
+C:/Users/Kot/CLionProjects/HW25/computer/src/cpu.h
+disc.h
+C:/Users/Kot/CLionProjects/HW25/computer/src/disc.h
+ram.h
+C:/Users/Kot/CLionProjects/HW25/computer/src/ram.h
+
