@@ -2,11 +2,12 @@
 #include <string>
 #include "surgeone.h"
 
+
 int main() {
-    command scalpA;
-    command scalpB;
-    command sutureA;
-    command sutureB;
+    point scalpA;
+    point scalpB;
+    point sutureA;
+    point sutureB;
     std::string comm;
     std::cout << "Enter command: ";
     std::cin >> comm;

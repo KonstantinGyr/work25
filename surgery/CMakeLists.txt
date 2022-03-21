@@ -3,4 +3,4 @@ project(surgery VERSION 1.0)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(surgery main.cpp surgeone.h)
+add_executable(surgery main.cpp surgeone.cpp surgeone.h)

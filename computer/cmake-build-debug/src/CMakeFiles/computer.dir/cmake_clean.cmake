@@ -2,6 +2,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/computer.dir/cpu.cpp.obj"
   "CMakeFiles/computer.dir/disk.cpp.obj"
   "CMakeFiles/computer.dir/gpu.cpp.obj"
+  "CMakeFiles/computer.dir/kbd.cpp.obj"
   "CMakeFiles/computer.dir/main.cpp.obj"
   "CMakeFiles/computer.dir/ram.cpp.obj"
   "computer.exe"

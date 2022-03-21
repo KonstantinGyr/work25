@@ -80,9 +80,34 @@ src\CMakeFiles\computer.dir\cpu.cpp.s: cmake_force
 <<
 	cd C:\Users\Kot\CLionProjects\HW25\computer\cmake-build-debug
 
+src\CMakeFiles\computer.dir\kbd.cpp.obj: src\CMakeFiles\computer.dir\flags.make
+src\CMakeFiles\computer.dir\kbd.cpp.obj: ..\src\kbd.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Kot\CLionProjects\HW25\computer\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/computer.dir/kbd.cpp.obj"
+	cd C:\Users\Kot\CLionProjects\HW25\computer\cmake-build-debug\src
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\computer.dir\kbd.cpp.obj /FdCMakeFiles\computer.dir\ /FS -c C:\Users\Kot\CLionProjects\HW25\computer\src\kbd.cpp
+<<
+	cd C:\Users\Kot\CLionProjects\HW25\computer\cmake-build-debug
+
+src\CMakeFiles\computer.dir\kbd.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/computer.dir/kbd.cpp.i"
+	cd C:\Users\Kot\CLionProjects\HW25\computer\cmake-build-debug\src
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe > CMakeFiles\computer.dir\kbd.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Kot\CLionProjects\HW25\computer\src\kbd.cpp
+<<
+	cd C:\Users\Kot\CLionProjects\HW25\computer\cmake-build-debug
+
+src\CMakeFiles\computer.dir\kbd.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/computer.dir/kbd.cpp.s"
+	cd C:\Users\Kot\CLionProjects\HW25\computer\cmake-build-debug\src
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\computer.dir\kbd.cpp.s /c C:\Users\Kot\CLionProjects\HW25\computer\src\kbd.cpp
+<<
+	cd C:\Users\Kot\CLionProjects\HW25\computer\cmake-build-debug
+
 src\CMakeFiles\computer.dir\disk.cpp.obj: src\CMakeFiles\computer.dir\flags.make
 src\CMakeFiles\computer.dir\disk.cpp.obj: ..\src\disk.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Kot\CLionProjects\HW25\computer\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/computer.dir/disk.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Kot\CLionProjects\HW25\computer\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/CMakeFiles/computer.dir/disk.cpp.obj"
 	cd C:\Users\Kot\CLionProjects\HW25\computer\cmake-build-debug\src
 	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\computer.dir\disk.cpp.obj /FdCMakeFiles\computer.dir\ /FS -c C:\Users\Kot\CLionProjects\HW25\computer\src\disk.cpp
@@ -107,7 +132,7 @@ src\CMakeFiles\computer.dir\disk.cpp.s: cmake_force
 
 src\CMakeFiles\computer.dir\main.cpp.obj: src\CMakeFiles\computer.dir\flags.make
 src\CMakeFiles\computer.dir\main.cpp.obj: ..\src\main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Kot\CLionProjects\HW25\computer\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/CMakeFiles/computer.dir/main.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Kot\CLionProjects\HW25\computer\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/CMakeFiles/computer.dir/main.cpp.obj"
 	cd C:\Users\Kot\CLionProjects\HW25\computer\cmake-build-debug\src
 	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\computer.dir\main.cpp.obj /FdCMakeFiles\computer.dir\ /FS -c C:\Users\Kot\CLionProjects\HW25\computer\src\main.cpp
@@ -132,7 +157,7 @@ src\CMakeFiles\computer.dir\main.cpp.s: cmake_force
 
 src\CMakeFiles\computer.dir\ram.cpp.obj: src\CMakeFiles\computer.dir\flags.make
 src\CMakeFiles\computer.dir\ram.cpp.obj: ..\src\ram.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Kot\CLionProjects\HW25\computer\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/CMakeFiles/computer.dir/ram.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Kot\CLionProjects\HW25\computer\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/CMakeFiles/computer.dir/ram.cpp.obj"
 	cd C:\Users\Kot\CLionProjects\HW25\computer\cmake-build-debug\src
 	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\computer.dir\ram.cpp.obj /FdCMakeFiles\computer.dir\ /FS -c C:\Users\Kot\CLionProjects\HW25\computer\src\ram.cpp
@@ -157,7 +182,7 @@ src\CMakeFiles\computer.dir\ram.cpp.s: cmake_force
 
 src\CMakeFiles\computer.dir\gpu.cpp.obj: src\CMakeFiles\computer.dir\flags.make
 src\CMakeFiles\computer.dir\gpu.cpp.obj: ..\src\gpu.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Kot\CLionProjects\HW25\computer\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/CMakeFiles/computer.dir/gpu.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Kot\CLionProjects\HW25\computer\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/CMakeFiles/computer.dir/gpu.cpp.obj"
 	cd C:\Users\Kot\CLionProjects\HW25\computer\cmake-build-debug\src
 	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\computer.dir\gpu.cpp.obj /FdCMakeFiles\computer.dir\ /FS -c C:\Users\Kot\CLionProjects\HW25\computer\src\gpu.cpp
@@ -183,6 +208,7 @@ src\CMakeFiles\computer.dir\gpu.cpp.s: cmake_force
 # Object files for target computer
 computer_OBJECTS = \
 "CMakeFiles\computer.dir\cpu.cpp.obj" \
+"CMakeFiles\computer.dir\kbd.cpp.obj" \
 "CMakeFiles\computer.dir\disk.cpp.obj" \
 "CMakeFiles\computer.dir\main.cpp.obj" \
 "CMakeFiles\computer.dir\ram.cpp.obj" \
@@ -192,13 +218,14 @@ computer_OBJECTS = \
 computer_EXTERNAL_OBJECTS =
 
 src\computer.exe: src\CMakeFiles\computer.dir\cpu.cpp.obj
+src\computer.exe: src\CMakeFiles\computer.dir\kbd.cpp.obj
 src\computer.exe: src\CMakeFiles\computer.dir\disk.cpp.obj
 src\computer.exe: src\CMakeFiles\computer.dir\main.cpp.obj
 src\computer.exe: src\CMakeFiles\computer.dir\ram.cpp.obj
 src\computer.exe: src\CMakeFiles\computer.dir\gpu.cpp.obj
 src\computer.exe: src\CMakeFiles\computer.dir\build.make
 src\computer.exe: src\CMakeFiles\computer.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Kot\CLionProjects\HW25\computer\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable computer.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Kot\CLionProjects\HW25\computer\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable computer.exe"
 	cd C:\Users\Kot\CLionProjects\HW25\computer\cmake-build-debug\src
 	"C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\computer.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x86\mt.exe --manifests -- C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\computer.dir\objects1.rsp @<<
  /out:computer.exe /implib:computer.lib /pdb:C:\Users\Kot\CLionProjects\HW25\computer\cmake-build-debug\src\computer.pdb /version:0.0 /machine:X86 /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 

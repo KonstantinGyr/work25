@@ -11,6 +11,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/Kot/CLionProjects/HW25/computer/src/cpu.cpp" "C:/Users/Kot/CLionProjects/HW25/computer/cmake-build-debug/src/CMakeFiles/computer.dir/cpu.cpp.obj"
   "C:/Users/Kot/CLionProjects/HW25/computer/src/disk.cpp" "C:/Users/Kot/CLionProjects/HW25/computer/cmake-build-debug/src/CMakeFiles/computer.dir/disk.cpp.obj"
   "C:/Users/Kot/CLionProjects/HW25/computer/src/gpu.cpp" "C:/Users/Kot/CLionProjects/HW25/computer/cmake-build-debug/src/CMakeFiles/computer.dir/gpu.cpp.obj"
+  "C:/Users/Kot/CLionProjects/HW25/computer/src/kbd.cpp" "C:/Users/Kot/CLionProjects/HW25/computer/cmake-build-debug/src/CMakeFiles/computer.dir/kbd.cpp.obj"
   "C:/Users/Kot/CLionProjects/HW25/computer/src/main.cpp" "C:/Users/Kot/CLionProjects/HW25/computer/cmake-build-debug/src/CMakeFiles/computer.dir/main.cpp.obj"
   "C:/Users/Kot/CLionProjects/HW25/computer/src/ram.cpp" "C:/Users/Kot/CLionProjects/HW25/computer/cmake-build-debug/src/CMakeFiles/computer.dir/ram.cpp.obj"
   )

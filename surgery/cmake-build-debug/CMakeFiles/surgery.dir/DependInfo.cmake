@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/Kot/CLionProjects/HW25/surgery/main.cpp" "C:/Users/Kot/CLionProjects/HW25/surgery/cmake-build-debug/CMakeFiles/surgery.dir/main.cpp.obj"
+  "C:/Users/Kot/CLionProjects/HW25/surgery/surgeone.cpp" "C:/Users/Kot/CLionProjects/HW25/surgery/cmake-build-debug/CMakeFiles/surgery.dir/surgeone.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "MSVC")
 

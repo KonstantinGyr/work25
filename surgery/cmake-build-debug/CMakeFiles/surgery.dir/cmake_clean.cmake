@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/surgery.dir/main.cpp.obj"
+  "CMakeFiles/surgery.dir/surgeone.cpp.obj"
   "surgery.exe"
   "surgery.exe.manifest"
   "surgery.lib"

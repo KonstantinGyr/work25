@@ -142,6 +142,30 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\surgery.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\surgery.dir\main.cpp.s
 .PHONY : main.cpp.s
 
+surgeone.obj: surgeone.cpp.obj
+.PHONY : surgeone.obj
+
+# target to build an object file
+surgeone.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\surgery.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\surgery.dir\surgeone.cpp.obj
+.PHONY : surgeone.cpp.obj
+
+surgeone.i: surgeone.cpp.i
+.PHONY : surgeone.i
+
+# target to preprocess a source file
+surgeone.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\surgery.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\surgery.dir\surgeone.cpp.i
+.PHONY : surgeone.cpp.i
+
+surgeone.s: surgeone.cpp.s
+.PHONY : surgeone.s
+
+# target to generate assembly for a file
+surgeone.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\surgery.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\surgery.dir\surgeone.cpp.s
+.PHONY : surgeone.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -154,6 +178,9 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... surgeone.obj
+	@echo ... surgeone.i
+	@echo ... surgeone.s
 .PHONY : help
 
 

@@ -4,3 +4,6 @@
 CMakeFiles\surgery.dir\main.cpp.obj: ..\main.cpp
 CMakeFiles\surgery.dir\main.cpp.obj: ..\surgeone.h
 
+CMakeFiles\surgery.dir\surgeone.cpp.obj: ..\surgeone.cpp
+CMakeFiles\surgery.dir\surgeone.cpp.obj: ..\surgeone.h
+

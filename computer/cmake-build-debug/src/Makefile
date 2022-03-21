@@ -223,6 +223,36 @@ gpu.cpp.s:
 	cd C:\Users\Kot\CLionProjects\HW25\computer\cmake-build-debug\src
 .PHONY : gpu.cpp.s
 
+kbd.obj: kbd.cpp.obj
+.PHONY : kbd.obj
+
+# target to build an object file
+kbd.cpp.obj:
+	cd C:\Users\Kot\CLionProjects\HW25\computer\cmake-build-debug
+	$(MAKE) $(MAKESILENT) -f src\CMakeFiles\computer.dir\build.make /nologo -$(MAKEFLAGS) src\CMakeFiles\computer.dir\kbd.cpp.obj
+	cd C:\Users\Kot\CLionProjects\HW25\computer\cmake-build-debug\src
+.PHONY : kbd.cpp.obj
+
+kbd.i: kbd.cpp.i
+.PHONY : kbd.i
+
+# target to preprocess a source file
+kbd.cpp.i:
+	cd C:\Users\Kot\CLionProjects\HW25\computer\cmake-build-debug
+	$(MAKE) $(MAKESILENT) -f src\CMakeFiles\computer.dir\build.make /nologo -$(MAKEFLAGS) src\CMakeFiles\computer.dir\kbd.cpp.i
+	cd C:\Users\Kot\CLionProjects\HW25\computer\cmake-build-debug\src
+.PHONY : kbd.cpp.i
+
+kbd.s: kbd.cpp.s
+.PHONY : kbd.s
+
+# target to generate assembly for a file
+kbd.cpp.s:
+	cd C:\Users\Kot\CLionProjects\HW25\computer\cmake-build-debug
+	$(MAKE) $(MAKESILENT) -f src\CMakeFiles\computer.dir\build.make /nologo -$(MAKEFLAGS) src\CMakeFiles\computer.dir\kbd.cpp.s
+	cd C:\Users\Kot\CLionProjects\HW25\computer\cmake-build-debug\src
+.PHONY : kbd.cpp.s
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -301,6 +331,9 @@ help:
 	@echo ... gpu.obj
 	@echo ... gpu.i
 	@echo ... gpu.s
+	@echo ... kbd.obj
+	@echo ... kbd.i
+	@echo ... kbd.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

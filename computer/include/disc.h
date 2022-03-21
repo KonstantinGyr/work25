@@ -1,5 +1,5 @@
 #pragma once
 
-void save(int (&buff)[8]);
+void save();
 
-void load(int (&buff)[8]);
+void load();

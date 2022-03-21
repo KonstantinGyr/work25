@@ -1,3 +1,3 @@
 #pragma once
 
-void sum(int (&buff)[8]);
+void sum();

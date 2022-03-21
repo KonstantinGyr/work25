@@ -1,17 +1,11 @@
-#include <iostream>
-#include "gpu.h"
-#include "kbd.h"
+#include <vector>
+#include "ram.h"
 
+std::vector<int> buff(8,0);
 
-void write(int (&buff)[8]) {
-    std::cout << "Enter 8 integer numbers ";
-    for(int i=0;i<8;i++){
-       buff[i]= input();       //#include "kbd.h"
-    }
+void write(int n,int i) {
+       buff[i]=n;
 }
-void read(int (&buff)[8]){
-    for(int i=0;i<8;i++){
-       display(buff[i]);   //#include "gpu.h"
-    }
-    std::cout<<std::endl;
+int read(int n){
+      return buff[n];
 }

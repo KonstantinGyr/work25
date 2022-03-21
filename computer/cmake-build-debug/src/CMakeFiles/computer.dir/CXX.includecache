@@ -6,21 +6,39 @@
 
 #IncludeRegexTransform: 
 
-../include/cpu.h
-
-../include/disc.h
+../include/gpu.h
 
 ../include/ram.h
 
-C:/Users/Kot/CLionProjects/HW25/computer/src/main.cpp
+C:/Users/Kot/CLionProjects/HW25/computer/src/cpu.cpp
 iostream
 -
-string
+gpu.h
+C:/Users/Kot/CLionProjects/HW25/computer/src/gpu.h
+ram.h
+C:/Users/Kot/CLionProjects/HW25/computer/src/ram.h
+
+C:/Users/Kot/CLionProjects/HW25/computer/src/disk.cpp
+fstream
 -
-cpu.h
-C:/Users/Kot/CLionProjects/HW25/computer/src/cpu.h
-disc.h
-C:/Users/Kot/CLionProjects/HW25/computer/src/disc.h
+ram.h
+C:/Users/Kot/CLionProjects/HW25/computer/src/ram.h
+
+C:/Users/Kot/CLionProjects/HW25/computer/src/gpu.cpp
+iostream
+-
+ram.h
+C:/Users/Kot/CLionProjects/HW25/computer/src/ram.h
+
+C:/Users/Kot/CLionProjects/HW25/computer/src/kbd.cpp
+iostream
+-
+ram.h
+C:/Users/Kot/CLionProjects/HW25/computer/src/ram.h
+
+C:/Users/Kot/CLionProjects/HW25/computer/src/ram.cpp
+vector
+-
 ram.h
 C:/Users/Kot/CLionProjects/HW25/computer/src/ram.h
 

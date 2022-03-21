@@ -1,4 +1,5 @@
 #pragma once
-#include <iostream>
 
-void display(int &n);
+void display();
+
+void displaySum(int n);

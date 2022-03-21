@@ -85,6 +85,9 @@
 		<Unit filename="C:/Users/Kot/CLionProjects/HW25/surgery/main.cpp">
 			<Option target="surgery"/>
 		</Unit>
+		<Unit filename="C:/Users/Kot/CLionProjects/HW25/surgery/surgeone.cpp">
+			<Option target="surgery"/>
+		</Unit>
 		<Unit filename="C:/Users/Kot/CLionProjects/HW25/surgery/surgeone.h">
 			<Option target="surgery"/>
 		</Unit>

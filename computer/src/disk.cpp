@@ -1,14 +1,21 @@
 #include <fstream>
+#include "ram.h"
 
-void save(int (&buff)[8]){
+void save(){
     std::ofstream file;
-    file.open("data.txt",std::ios::binary);
-    file.write((char*)buff,sizeof (buff));
+    file.open("data.txt");
+    for(int i=0;i<8;i++){
+        file<<read(i)<<" ";
+    }
     file.close();
 }
-void load(int (&buff)[8]){
+void load(){
+    int n;
     std::ifstream file;
-    file.open("data.txt",std::ios::binary);
-    file.read((char*)buff,sizeof (buff));
+    file.open("data.txt");
+    for(int i=0;i<8;i++) {
+        file >> n;
+        write(n,i);
+    }
     file.close();
 }

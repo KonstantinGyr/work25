@@ -108,6 +108,9 @@
 		<Unit filename="C:/Users/Kot/CLionProjects/HW25/computer/src/gpu.cpp">
 			<Option target="computer"/>
 		</Unit>
+		<Unit filename="C:/Users/Kot/CLionProjects/HW25/computer/src/kbd.cpp">
+			<Option target="computer"/>
+		</Unit>
 		<Unit filename="C:/Users/Kot/CLionProjects/HW25/computer/src/main.cpp">
 			<Option target="computer"/>
 		</Unit>

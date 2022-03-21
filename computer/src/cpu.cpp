@@ -1,11 +1,13 @@
 #include <iostream>
 #include "gpu.h"
+#include "ram.h"
 
-void sum(int (&buff)[8]){
-    int n=0;
-    for(int i=0;i<8;i++){
-       n+=buff[i];
+void sum(){
+    int n;
+    int sum=0;
+    for(int i=0;i<8;i++) {
+        sum += read(i);
     }
-    display(n);   //#include "gpu.h"
+    displaySum(sum);   //#include "gpu.h"
     std::cout<<std::endl;
 }

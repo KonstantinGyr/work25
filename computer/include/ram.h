@@ -1,5 +1,6 @@
 #pragma once
+//#include "gpu.h"
 
-void write(int (&buff)[8]);
+void write(int n,int i);
 
-void read(int (&buff)[8]);
+int  read(int n);
